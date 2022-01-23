@@ -2,6 +2,7 @@
   "name": "my-catalog",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://keshavshelly.github.io/car-catalg-new/"
   "dependencies": {
     "@apollo/client": "^3.5.7",
     "@emotion/react": "^11.7.1",
