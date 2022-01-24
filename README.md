@@ -1,7 +1,4 @@
-#Project Overview-
-
-
-Project starts with Index.js
+# Project starts with Index.js
 
 # Getting Started with Create React App
 
