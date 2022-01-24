@@ -10,6 +10,7 @@ import {
   Grid,
   Typography,
 } from "@material-ui/core/";
+import "../styles/style.css";
 
 export default function Hero() {
 
@@ -25,7 +26,7 @@ export default function Hero() {
   }, [data]);
 
   return (
-    <div >
+    <div className="MarginTop" >
       <Grid
           container
           spacing={2}
