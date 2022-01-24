@@ -1,5 +1,8 @@
 # Project starts with Index.js
 
+![image](https://user-images.githubusercontent.com/68282162/150740379-eb55ed71-37f2-4e2a-bf7e-a2a6e4f7d6eb.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
