@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core/";
 import "../styles/style.css";
 
-export default function Hero() {
+export default function Body() {
 
   const { data } = useQuery(LOAD_CAR_DETAILS);
   const [cardetails, setCarDetails] = useState();
@@ -41,16 +41,16 @@ export default function Hero() {
               title={`${elem.car}`}
             />
             <CardContent>
-              <Typography variant="h5" gutterBottom>
+              <Typography gutterBottom>
                 Model : {elem.car_model}
               </Typography>
-              <Typography variant="h5" gutterBottom>
+              <Typography  gutterBottom>
                 Color : {elem.car_color}
               </Typography>
-              <Typography variant="h5" gutterBottom>
+              <Typography  gutterBottom>
                 Year : {elem.car_model_year}
               </Typography>
-              <Typography variant="h5" gutterBottom>
+              <Typography  gutterBottom>
                 Price : {elem.price}
               </Typography>
             </CardContent>

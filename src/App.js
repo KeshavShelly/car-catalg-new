@@ -1,12 +1,12 @@
 import Header from './components/header.js'
-import Hero from './components/hero.js'
+import Body from './components/body.js'
 
 function App() {
   return (
     <body>
       <div>
         <Header />
-        <Hero />
+        <Body />
       </div>
     </body>
   );
