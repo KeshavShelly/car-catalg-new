@@ -14,19 +14,26 @@ import {
 export default function Hero() {
 
   const { data } = useQuery(LOAD_CAR_DETAILS);
-  const [users, setUsers] = useState();
+  const [cardetails, setCarDetails] = useState();
   let cardDataJSONObject;
 
   useEffect(() => {
     if (data) {
       cardDataJSONObject = data.allCars
-      setUsers(cardDataJSONObject);
+      setCarDetails(cardDataJSONObject);
     }
   }, [data]);
 
   return (
     <div >
-      {users && users.map((elem) => (
+      <Grid
+          container
+          spacing={2}
+          direction="row"
+          justify="flex-start"
+          alignItems="flex-start"
+        >
+      {cardetails && cardetails.map((elem) => (
         <Grid item xs={3} key={elem.id}>
           <Card>
             <CardHeader
@@ -49,7 +56,7 @@ export default function Hero() {
           </Card>
         </Grid>
       ))}
-
+</Grid>
     </div>
   );
 }
